@@ -1,0 +1,15 @@
+# node_modules 제외
+node_modules/
+
+# Next.js build 파일 제외
+.next/
+
+# 환경변수 제외
+.env
+.env.local
+
+# 로그파일 제외
+*.log
+
+# OS 파일 제외
+.DS_Store
