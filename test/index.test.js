@@ -10,12 +10,12 @@ describe("사칙연산 함수 테스트", () => {
 
   // subtract 함수가 올바르게 동작하는지 확인
   test("subtract(10, 4)는 6을 반환해야 한다", () => {
-    expect(subtract(10, 4)).toBe(5);
+    expect(subtract(10, 4)).toBe(6);
   });
 
   // multiply 함수가 올바르게 동작하는지 확인
   test("multiply(3, 4)는 12를 반환해야 한다", () => {
-    expect(multiply(3, 4)).toBe(11);
+    expect(multiply(3, 4)).toBe(12);
   });
 
   // ⚠️ 아래 주석을 해제하면 CI(GitHub Actions)가 실패합니다.
